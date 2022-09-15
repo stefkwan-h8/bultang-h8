@@ -1,0 +1,71 @@
+body {
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 24px;
+    background-color: #EFEFEF;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 32px;
+    margin: 6px;
+}
+
+nav ul li a {    
+    color: #D2001A;
+    border: 1px solid #FFFAE7;
+    padding: 6px;
+}
+
+#home {
+    color: #EFEFEF;
+    background-image: url("asset/home.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    text-align: center;
+}
+
+#home h1 {
+    background-color: rgba(0,0,0,0.5)
+}
+
+p {    
+    font-family: Arial, sans-serif;
+}
+
+#history {
+    display: flex;
+    justify-content: center;
+}
+
+#history .container {
+    width: 80vw;
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+}
+
+#gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gallery-images img {
+    width: 360px;
+    height: 300px;
+    margin: 10px;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #FFFAE7;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
